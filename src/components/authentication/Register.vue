@@ -19,7 +19,7 @@
             </div>
             <p>Already have an account? <router-link to="/login"> Register </router-link></p>
             <div>
-                <button type="submit" class="btn btn-primary">Register</button>
+                <button type="submit" class="btn btn-primary">Login</button>
             </div>
         </form>
     </div>

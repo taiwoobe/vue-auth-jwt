@@ -1,5 +1,6 @@
 # Authentication in Vue using Vuex
 This Demo project shows how to build an application with a protected route and handle authentication using Vuex.
+Live Demo link: https://taiwo-vue-auth-jwt.netlify.com
 
 ## Project setup
 ```
