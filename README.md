@@ -1,4 +1,5 @@
-# vue-auth-jwt
+# Authentication in Vue using Vuex
+This Demo project shows how to build an application with a protected route and handle authentication using Vuex.
 
 ## Project setup
 ```
