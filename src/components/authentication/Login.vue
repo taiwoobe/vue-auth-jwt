@@ -10,6 +10,7 @@
                 <label>Password</label>
                 <input class="form-control" required v-model="password" type="password" placeholder="Password"/>
             </div>
+            <p>Dont have an account? <router-link to="/register"> Register </router-link></p>
            <button type="submit" class="btn btn-primary">Login</button>
         </form>
     </div>

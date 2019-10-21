@@ -1,24 +1,25 @@
 <template>
-    <div>
+    <div class="col-lg-4 offset-lg-4">
         <form @submit.prevent="register">
-            <label for="name">Name</label>
-            <div>
-                <input id="name" type="text" v-model="name" required autofocus>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" class="form-control" type="text" v-model="name" required autofocus>
             </div>
-            <label for="email" >E-Mail Address</label>
-            <div>
-                <input id="email" type="email" v-model="email" required>
+            <div class="form-group">
+                <label for="email" >E-Mail Address</label>
+                <input id="email" class="form-control" type="email" v-model="email" required>
             </div>
-            <label for="password">Password</label>
-            <div>
-                <input id="password" type="password" v-model="password" required>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input id="password" class="form-control" type="password" v-model="password" required>
             </div>
-            <label for="password-confirm">Confirm Password</label>
-            <div>
-                <input id="password-confirm" type="password" v-model="password_confirmation" required>
+            <div class="form-group">
+                <label for="password-confirm">Confirm Password</label>
+                <input id="password-confirm" class="form-control" type="password" v-model="password_confirmation" required>
             </div>
+            <p>Already have an account? <router-link to="/login"> Register </router-link></p>
             <div>
-                <button type="submit">Register</button>
+                <button type="submit" class="btn btn-primary">Register</button>
             </div>
         </form>
     </div>

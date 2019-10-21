@@ -3,6 +3,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <span v-if="isLoggedIn"> | <router-link to="/resources">Resources</router-link></span>
       <span v-if="isLoggedIn"> | <a @click="logout">Logout</a></span>
       <span v-else> | <router-link to="/login">Login</router-link></span>
     </div>
@@ -44,6 +45,7 @@ export default {
   a {
     font-weight: bold;
     color: #2c3e50;
+    cursor: pointer;
 
     &.router-link-exact-active {
       color: #42b983;
