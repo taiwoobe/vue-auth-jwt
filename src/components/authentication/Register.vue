@@ -17,9 +17,9 @@
                 <label for="password-confirm">Confirm Password</label>
                 <input id="password-confirm" class="form-control" type="password" v-model="password_confirmation" required>
             </div>
-            <p>Already have an account? <router-link to="/login"> Register </router-link></p>
+            <p>Already have an account? <router-link to="/login"> Login </router-link></p>
             <div>
-                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="submit" class="btn btn-primary">Register</button>
             </div>
         </form>
     </div>
