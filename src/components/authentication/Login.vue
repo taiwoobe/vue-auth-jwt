@@ -1,13 +1,16 @@
 <template>
-    <div>
+    <div class="col-lg-4 offset-lg-4">
         <form class="login" @submit.prevent="login">
-           <h1>Sign in</h1>
-           <label>Email</label>
-           <input required v-model="email" type="email" placeholder="Email Address"/>
-           <label>Password</label>
-           <input required v-model="password" type="password" placeholder="Password"/>
-           <hr/>
-           <button type="submit">Login</button>
+            <h1>Sign in</h1>
+            <div class="form-group">    
+                <label>Email</label>
+                <input class="form-control" required v-model="email" type="email" placeholder="Email Address"/>
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input class="form-control" required v-model="password" type="password" placeholder="Password"/>
+            </div>
+           <button type="submit" class="btn btn-primary">Login</button>
         </form>
     </div>
 </template>
